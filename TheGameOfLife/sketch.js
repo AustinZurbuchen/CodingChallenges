@@ -34,7 +34,7 @@ function make2DArray(cols, rows){
         if (grid[i][j] == 1){
           fill(255);
           stroke(0);
-          rect(x, y, resolution - 1; resolution - 1);
+          rect(x, y, resolution - 1, resolution - 1);
         }
       }
     }
@@ -50,7 +50,7 @@ function make2DArray(cols, rows){
         
         if(state == 0&& neighbors == 3){
           next[i][j] = 1;
-        } else if (state == 1 && (neighbors < 2 || neighbors > 3){
+        } else if (state == 1 && (neighbors < 2 || neighbors > 3)){
           next[i][j] = 0;
         } else {
           next[i][j] = state;
